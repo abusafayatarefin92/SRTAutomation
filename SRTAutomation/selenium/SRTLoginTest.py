@@ -21,13 +21,13 @@ shadow_element1 = expand_shadow_element(edge_driver, host_element)
 time.sleep(2)
 shadow_element1.find_element(By.CSS_SELECTOR, '[id="control"]').send_keys('TASM@gmail.com')
 # shadow_element1.find_element(By.CSS_SELECTOR, '[class="fluent-input-label"]').text
-# edge_driver.find_element(By.XPATH, '')
+# driver.find_element(By.XPATH, '')
 # inner_element = shadow_element1.find_element(By.CSS_SELECTOR, '[name="Input.Email"]')
 # time.sleep(2)
-# shadow_element2 = expand_shadow_element(edge_driver, inner_element)
+# shadow_element2 = expand_shadow_element(driver, inner_element)
 # time.sleep(2)
 # shadow_element2.find_element(By.CSS_SELECTOR, '[id="control"]').send_keys('TASM@gmail.com')
-# shadow_root1 = edge_driver.execute_script('return arguments[0].shadowRoot',
+# shadow_root1 = driver.execute_script('return arguments[0].shadowRoot',
 #                                                credentials_shadow_host)
 # time.sleep(2)
 # email_shadow_root.find_element(By.CSS_SELECTOR, '[name="Input.Email"]').send_keys('TASM@gmail.com')
