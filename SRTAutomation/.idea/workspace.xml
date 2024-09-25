@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43140cb0-2ebf-4094-a3a9-e96143b4d874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pages/add_plan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Steps/AddNewPlanSteps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Steps/LoginSteps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_SRT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/py_shadow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/SRTLoginTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/SRTLoginTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/ShadowDOM.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/ShadowDOM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/abu.arefin/Desktop/git/HandicapAutomation/HANDICAPAutomation",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="ReadonlyStatusHandler">

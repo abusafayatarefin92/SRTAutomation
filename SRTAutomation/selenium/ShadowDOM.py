@@ -4,6 +4,10 @@ from selenium.webdriver.edge.service import Service as EdgeService
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 import time
 
+from selenium.webdriver.support.ui import Select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
 
 driver.maximize_window()
@@ -63,23 +67,43 @@ time.sleep(3)
 driver.find_element(By.XPATH, '(//fluent-button[@title=\'Edit\'])[1]').click()
 time.sleep(3)
 
-driver.find_element(By.XPATH, '(//*[name()=\'svg\'][@role=\'button\'])[1]').click()
+# driver.find_element(By.XPATH, '(//*[name()=\'svg\'][@role=\'button\'])[1]').click()
+# time.sleep(1)
+
+program_themes_shadow_host = driver.find_element(By.XPATH, '(//fluent-text-field[@aria-label="Program Themes"])[1]')
+program_themes_shadow_root = driver.execute_script('return arguments[0].shadowRoot', program_themes_shadow_host)
+program_themes_shadow_root.find_element(By.CSS_SELECTOR, '[id="control"]').click()
 time.sleep(1)
 
-driver.find_element(By.XPATH, '(//fluent-option[@role="option"])[1]').click()
+# program_themes_option1_shadow_host = driver.find_element(By.XPATH, '(//fluent-option[@role="option"])[1]')
+# program_themes_option1_shadow_root = driver.execute_script('return arguments[0].shadowRoot', program_themes_option1_shadow_host)
+# program_themes_option1_shadow_root_element = program_themes_option1_shadow_root.find_element(By.CSS_SELECTOR, 'span.content')
+# driver.execute_script("arguments[0].click();", program_themes_option1_shadow_root_element)
+
+program_themes_option_element = driver.find_element(By.XPATH, '(//fluent-option[@role="option"])[1]')
+driver.execute_script("arguments[0].click();", program_themes_option_element)
 time.sleep(1)
 
-program_theme_shadow_host = driver.find_element(By.XPATH,
-                                                   '(//fluent-text-field[@class="outline"])[1]')
-time.sleep(2)
-program_theme_shadow_root = driver.execute_script('return arguments[0].shadowRoot',
-                                          program_theme_shadow_host)
-time.sleep(2)
-program_theme_shadow_root.find_element(By.CSS_SELECTOR, '[class="control"]').click()
-time.sleep(3)
 
-driver.find_element(By.XPATH, '(//fluent-option[@role="option"])[2]').click()
-time.sleep(2)
+# Wait for the element to be visible and enabled
+# element = WebDriverWait(driver, 10).until(
+#     # EC.element_to_be_clickable((By.CSS_SELECTOR, '[class="content"]'))
+#     EC.element_to_be_clickable((By.XPATH, '//span[@class="content"]'))
+# )
+# element.click()
+# time.sleep(1)
 
+# program_themes_shadow_host = driver.find_element(By.XPATH, '(//fluent-text-field[@aria-label="Program Themes"])[1]')
+# program_themes_shadow_root = driver.execute_script('return arguments[0].shadowRoot', program_themes_shadow_host)
+# program_themes_shadow_root.find_element(By.CSS_SELECTOR, '[id="control"]').click()
+# time.sleep(1)
+#
+# program_themes_option2_shadow_host = driver.find_element(By.XPATH, '(//fluent-option[@role="option"])[2]')
+# program_themes_option2_shadow_root = driver.execute_script('return arguments[0].shadowRoot', program_themes_option2_shadow_host)
+# program_themes_option2_shadow_root.find_element(By.CSS_SELECTOR, '[class="content"]').click()
+# time.sleep(1)
+
+
+time.sleep(5)
 driver.close()
 driver.quit()

@@ -10,3 +10,13 @@ email_shadow_root = driver.execute_script('return arguments[0].shadowRoot', emai
 
 # Locate the element inside the shadow DOM and Perform actions on the element
 email_shadow_root.find_element(By.CSS_SELECTOR, '[id="control"]').send_keys('TASM@gmail.com') # Example action
+
+CSS selectors can also be used to target specific elements based on their attributes, classes, or hierarchy.
+# Find the specific <div> element by its class
+specific_div = driver.find_element(By.CSS_SELECTOR, "div.specific-class")
+
+# Find the specific <div> element by its ID
+specific_div = driver.find_element(By.CSS_SELECTOR, "div#specific-id")
+
+# Find the specific <div> element by its position within a parent
+specific_div = driver.find_element(By.CSS_SELECTOR, "div.parent-class > div:nth-child(2)")
