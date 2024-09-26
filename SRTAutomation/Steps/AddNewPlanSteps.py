@@ -14,3 +14,5 @@ class AddNewPlanSteps:
         time.sleep(1)
         add_new_plan.click_program_overview_edit_button()
         time.sleep(1)
+        add_new_plan.select_program_themes()
+        time.sleep(1)
