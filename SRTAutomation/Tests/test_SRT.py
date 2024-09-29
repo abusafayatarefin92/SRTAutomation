@@ -1,10 +1,10 @@
+import time
 import pytest
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service as EdgeService
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
-
 from Steps.LoginSteps import LoginSteps
-from Steps.AddNewPlanSteps import AddNewPlanSteps
+from Steps.NewPlanSteps import NewPlanSteps
 
 @pytest.fixture()
 def driver_function():
@@ -23,6 +23,9 @@ def test_SRT(driver_function):
     login_steps.login_steps(driver_function)
 
     #Add new plan
-    add_new_plan = AddNewPlanSteps()
-    add_new_plan.add_new_plan_steps(driver_function)
+    add_new_plan = NewPlanSteps()
+    add_new_plan.plan_steps(driver_function)
+    # add_new_plan.program_overview(driver_function)
+    add_new_plan.program_implementation_strategy(driver_function)
 
+    time.sleep(10)

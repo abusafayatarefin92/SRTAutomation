@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43140cb0-2ebf-4094-a3a9-e96143b4d874" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Pages/ProgramApproachSection2/partnership_strategy2_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/ProgramApproachSection2/program_implementation_strategy2_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/ProgramOverviewSection1/changes_in_program_context1_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/ProgramOverviewSection1/program_overview1_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Steps/NewPlanSteps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/add_plan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/add_plan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/AddNewPlanSteps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/AddNewPlanSteps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steps/AddNewPlanSteps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_SRT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_SRT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/ShadowDOM.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/ShadowDOM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +53,22 @@
     "Python tests.Python tests in test_SRT.py.executor": "Run",
     "Python.SRTLoginTest.executor": "Run",
     "Python.ShadowDOM.executor": "Run",
+    "Python.program_implementation_strategy2_1.executor": "Run",
     "Python.py_shadow.executor": "Run",
     "Python.shadow_function.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/abu.arefin/Desktop/git/HandicapAutomation/HANDICAPAutomation",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abu.arefin\Desktop\git\SRTAutomation\SRTAutomation\Pages\ProgramOverviewSection1" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.ShadowDOM">
     <configuration name="ShadowDOM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -100,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py_shadow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="program_implementation_strategy2_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SRTAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pages/ProgramApproachSection2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium/py_shadow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pages/ProgramApproachSection2/program_implementation_strategy2_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,10 +192,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.ShadowDOM" />
-        <item itemvalue="Python tests.Python tests in test_SRT.py" />
         <item itemvalue="Python tests.Python tests for test_SRT.test_SRT" />
+        <item itemvalue="Python tests.Python tests in test_SRT.py" />
+        <item itemvalue="Python.program_implementation_strategy2_1" />
         <item itemvalue="Python.shadow_function" />
-        <item itemvalue="Python.py_shadow" />
       </list>
     </recent_temporary>
   </component>

@@ -23,8 +23,7 @@ class LoginPage:
         #Enter email
         email_shadow_host = self.driver.find_element(*self.email_shadow_host)
         time.sleep(1)
-        email_shadow_root = self.driver.execute_script('return arguments[0].shadowRoot',
-                                                       email_shadow_host)
+        email_shadow_root = self.driver.execute_script('return arguments[0].shadowRoot', email_shadow_host)
         time.sleep(1)
         email_shadow_root.find_element(*self.email_textbox).send_keys(email)
         time.sleep(1)
@@ -32,8 +31,7 @@ class LoginPage:
         #Enter password
         password_shadow_host = self.driver.find_element(*self.password_shadow_host)
         time.sleep(1)
-        password_shadow_root = self.driver.execute_script('return arguments[0].shadowRoot',
-                                                          password_shadow_host)
+        password_shadow_root = self.driver.execute_script('return arguments[0].shadowRoot', password_shadow_host)
         time.sleep(1)
         password_shadow_root.find_element(*self.password_textbox).send_keys(password)
         time.sleep(1)
@@ -41,8 +39,7 @@ class LoginPage:
     def click_login_button(self):
         login_shadow_host = self.driver.find_element(*self.login_shadow_host)
         time.sleep(1)
-        login_shadow_root = self.driver.execute_script('return arguments[0].shadowRoot',
-                                                       login_shadow_host)
+        login_shadow_root = self.driver.execute_script('return arguments[0].shadowRoot', login_shadow_host)
         time.sleep(1)
         login_shadow_root.find_element(*self.login_button).click()
         time.sleep(1)
