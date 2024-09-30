@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43140cb0-2ebf-4094-a3a9-e96143b4d874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pages/ProgramApproachSection2/partnership_strategy2_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/ProgramApproachSection2/program_implementation_strategy2_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/ProgramOverviewSection1/changes_in_program_context1_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/ProgramOverviewSection1/program_overview1_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Steps/NewPlanSteps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/add_plan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/add_plan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/AddNewPlanSteps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_SRT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_SRT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/ShadowDOM.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/ShadowDOM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/abu.arefin/Desktop/git/HandicapAutomation/HANDICAPAutomation",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="ReadonlyStatusHandler">
@@ -202,7 +192,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
