@@ -10,7 +10,7 @@ from Steps.NewPlanSteps import NewPlanSteps
 def driver_function():
     driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
     driver.maximize_window()
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(20)
 
     yield driver
 
@@ -25,7 +25,6 @@ def test_SRT(driver_function):
     #Add new plan
     add_new_plan = NewPlanSteps()
     add_new_plan.plan_steps(driver_function)
-    # add_new_plan.program_overview(driver_function)
+    add_new_plan.program_overview(driver_function)
     add_new_plan.program_implementation_strategy(driver_function)
-
     time.sleep(10)

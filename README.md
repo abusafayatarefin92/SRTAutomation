@@ -60,3 +60,9 @@ select = Select(dropdown)
 
 #Select an option by visible text
 select.select_by_visible_text("Option Text")
+
+# Scroll to the Element: Sometimes, scrolling to the element can help.
+element = driver.find_element(By.ID, "your_element_id")
+driver.execute_script("arguments.scrollIntoView(true);", element)
+element.click()
+

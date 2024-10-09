@@ -12,6 +12,8 @@ class AddChangesInProgramContext1_3:
         self.save_as_draft_shadow_root = (By.CSS_SELECTOR, '[class="control"]')
         self.yes_shadow_host = (By.XPATH, '(//fluent-button[@title=\'Yes\'])[1]')
         self.yes_shadow_root = (By.CSS_SELECTOR, '[class="control"]')
+        self.close_program_overview_shadow_host = (By.XPATH, '(//fluent-accordion-item[@class="rounded expanded"])[1]')
+        self.close_program_overview_shadow_root = (By.CSS_SELECTOR, '[class="button"]')
 
     def click_edit_button(self):
         self.driver.find_element(*self.edit_button).click()
@@ -34,3 +36,9 @@ class AddChangesInProgramContext1_3:
         yes_shadow_root = self.driver.execute_script('return arguments[0].shadowRoot', yes_shadow_host)
         yes_shadow_root.find_element(*self.yes_shadow_root).click()
         time.sleep(2)
+
+    def close_section_program_overview(self):
+        close_program_overview_shadow_host = self.driver.find_element(*self.close_program_overview_shadow_host)
+        close_program_overview_shadow_root = self.driver.execute_script('return arguments[0].shadowRoot', close_program_overview_shadow_host)
+        close_program_overview_shadow_root.find_element(*self.close_program_overview_shadow_root).click()
+        time.sleep(3)
