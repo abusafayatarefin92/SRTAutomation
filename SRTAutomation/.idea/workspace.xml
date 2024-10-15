@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43140cb0-2ebf-4094-a3a9-e96143b4d874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pages/ProgramApproachSection2/risk_mitigation_strategy2_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SRTAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SRTAutomation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ProgramApproachSection2/partnership_strategy2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ProgramApproachSection2/partnership_strategy2_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ProgramOverviewSection1/changes_in_program_context1_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ProgramOverviewSection1/changes_in_program_context1_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/NewPlanSteps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/NewPlanSteps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_SRT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_SRT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/ShadowDOM.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/ShadowDOM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
