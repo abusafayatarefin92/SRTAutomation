@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/SRTAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SRTAutomation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/ShadowDOM.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/ShadowDOM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_SRT.test_SRT.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_SRT.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SRTLoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ShadowDOM.executor&quot;: &quot;Run&quot;,
-    &quot;Python.program_implementation_strategy2_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.py_shadow.executor&quot;: &quot;Run&quot;,
-    &quot;Python.shadow_function.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/git/SRTAutomation/SRTAutomation&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_SRT.test_SRT.executor": "Run",
+    "Python tests.Python tests in test_SRT.py.executor": "Run",
+    "Python.SRTLoginTest.executor": "Run",
+    "Python.ShadowDOM.executor": "Run",
+    "Python.program_implementation_strategy2_1.executor": "Run",
+    "Python.py_shadow.executor": "Run",
+    "Python.shadow_function.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/abu.arefin/Desktop/git/SRTAutomation/SRTAutomation",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
